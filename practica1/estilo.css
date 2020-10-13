@@ -1,0 +1,29 @@
+/* a = 0 b = 0 c = 1 */
+body {
+    font: 400 15px Tahoma, sans-serif; /*Familia sans-serif*/
+    line-height: 1.8;
+    color: #818181;
+}
+h1 {
+    background-color:#33ffa0; 
+    color: #fff;
+    text-transform: uppercase;
+    padding: 100px 25px;
+    text-align: center;
+}
+img{
+    display:block;
+    margin:auto;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 15px;
+}
+video{
+    display:block;
+    margin:auto;
+    width: 920px;
+    height: 720px;
+}
