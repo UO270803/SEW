@@ -1,29 +1,77 @@
 /* a = 0 b = 0 c = 1 */
 body {
+    background-color: steelblue;
     font: 400 15px Tahoma, sans-serif; /*Familia sans-serif*/
     line-height: 1.8;
-    color: #818181;
+    color: #fff;
 }
+/* a = 0 b = 0 c = 1 */
 h1 {
-    background-color:#33ffa0; 
+    font-size: 50px;
+    font-family: Impact, sans-serif;
+    background-color:lightblue; 
     color: #fff;
     text-transform: uppercase;
-    padding: 100px 25px;
+    padding: 25px 25px;
     text-align: center;
 }
-img{
-    display:block;
-    margin:auto;
-}
+/* a = 0 b = 0 c = 1 */
 table, th, td {
     border: 1px solid black;
 }
+/* a = 0 b = 0 c = 1 */
 th, td {
     padding: 15px;
 }
+/* a = 0 b = 0 c = 1 */
 video{
     display:block;
     margin:auto;
     width: 920px;
     height: 720px;
+}
+/* a = 0 b = 1 c = 0 */
+.navbar {
+    width: 100%;
+    background-color: lightblue;
+    overflow: auto;
+  }
+/* a = 0 b = 1 c = 1 */
+.navbar a {
+    float: left;
+    padding: 13px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 18%;
+    text-align: center; /* If you want the text to be centered */
+  }
+/* a = 1 b = 0 c = 0 */
+ #intro {
+    height: 400px;
+    width: 100%;
+    margin: 0;
+}
+/* a = 0 b = 1 c = 0 */
+.contenedor {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    margin: 0;
+  }
+/* a = 0 b = 1 c = 0 */
+.textoimagen {
+    position: absolute;
+    top: 73%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 110px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+/* a = 0 b = 0 c = 1*/
+footer{
+    text-align: center;
+    bottom: 0;
 }
