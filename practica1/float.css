@@ -15,5 +15,5 @@ th, td {
 /*001*/
 table, audio, img{
   margin: 1em;
-  float: right;
+  float: left;
 }
